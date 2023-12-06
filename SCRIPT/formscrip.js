@@ -12,8 +12,19 @@ pageForm.addEventListener('submit', function (e) {
   const cardUserSpace = document.getElementById('taskfill')
   cardUserSpace.appendChild(taskSpace)
 
+  const buttonD = document.createElement('button')
+  buttonD.innerText = 'cancella'
+
+  const buttonDelate = document.getElementById('taskfill')
+  buttonDelate.appendChild(buttonD)
+
   taskSpace.addEventListener('click', function () {
     taskSpace.setAttribute('id', 'fatto')
+  })
+
+  buttonD.addEventListener('click', function () {
+    buttonD.parentNode.removeChild(taskSpace)
+    buttonD.setAttribute('id', 'invisible')
   })
 
   taskIn.value = ''
