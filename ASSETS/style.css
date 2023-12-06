@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&family=Open+Sans:wght@400;700;800&family=Roboto+Slab:wght@400;700;900&display=swap');
+
+body {
+  background-image: url(./Gradient-blue-wallpaper-for-iPhone.png);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+main {
+  padding-bottom: 30px;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: black;
+  color: white;
+  font-family: 'Roboto Slab', serif;
+  text-align: center;
+  border: 1px solid #303245;
+  border-radius: 20px;
+  box-sizing: border-box;
+}
+header {
+  height: 60px;
+  margin-bottom: 20px;
+  border-bottom: 5px solid #303245;
+}
+h1 {
+  display: inline-block;
+  font-size: 2em;
+  font-weight: 900;
+  margin-left: 10px;
+  background-color: rgb(48, 50, 69);
+  background-image: linear-gradient(
+    0deg,
+    rgba(48, 50, 69, 1) 43%,
+    rgba(180, 3, 3, 1) 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+i {
+  font-size: 50px;
+  background-color: rgb(48, 50, 69);
+  background-image: linear-gradient(
+    0deg,
+    rgba(48, 50, 69, 1) 43%,
+    rgba(180, 3, 3, 1) 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+header div {
+  margin-top: 30px;
+  margin-left: 30px;
+  padding-bottom: 6px;
+  text-align: center;
+}
+form {
+  background-color: #15172b;
+  border-radius: 20px;
+  box-sizing: border-box;
+  height: 150px;
+  padding: 20px;
+  width: 320px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+label {
+  font-size: 1.4em;
+  font-weight: bold;
+}
+
+#task {
+  background-color: #303245;
+  border-radius: 12px;
+  border: 0;
+  box-sizing: border-box;
+  color: #eee;
+  font-size: 18px;
+  margin-top: 30px;
+  outline: 0;
+  padding: 4px 20px 0;
+  text-align: center;
+}
+
+.margin {
+  padding-bottom: 20px;
+  border-bottom: 5px solid #303245;
+}
+
+#insertTask {
+  background-color: #08d;
+  border-radius: 12px;
+  border: 0;
+  box-sizing: border-box;
+  color: #eee;
+  cursor: pointer;
+  font-size: 12px;
+  height: 25px;
+  margin-top: 15px;
+  // outline: 0;
+  text-align: center;
+  width: 60%;
+}
+
+#delateTask {
+  background-color: rgb(221, 0, 0);
+  border-radius: 12px;
+  border: 0;
+  box-sizing: border-box;
+  color: #eee;
+  cursor: pointer;
+  font-size: 12px;
+  height: 25px;
+  margin-top: 15px;
+  outline: 0;
+  text-align: center;
+  width: 60%;
+}
+
+p {
+  font: 1.2em;
+  margin-top: 16px;
+}
+
+#fatto {
+  text-decoration: line-through 2px red;
+}
